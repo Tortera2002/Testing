@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.testwithspring.master.message.ShowMessageTextSpec
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.139 s <<< FAILURE! - in com.testwithspring.master.message.ShowMessageTextSpec
+com.testwithspring.master.message.ShowMessageTextSpec.Open message page  Time elapsed: 14.621 s  <<< FAILURE!
+Condition not satisfied:
+
+browser.title == 'Hello World!'
+|       |     |
+|       |     false
+|       |     26 differences (10% similarity)
+|       |     (Err-)o(r) (503 Se)r(vice Unavai)l(able)
+|       |     (Hell)o(-) (Wo----)r(-----------)l(d!--)
+|       Error 503 Service Unavailable
+ChromeDriver: chrome on XP (0825fd6452c6727c08e344a23238e251)
+
+	at com.testwithspring.master.message.ShowMessageTextSpec.Open message page(ShowMessageTextSpec.groovy:33)
+

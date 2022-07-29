@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.testwithspring.master.message.ShowMessageTextSpec" time="24.139" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Barclays\SPOCK\Practice\test-with-spring-master\master-package\running-end-to-end-tests\spring\target\test-classes;E:\Barclays\SPOCK\Practice\test-with-spring-master\master-package\running-end-to-end-tests\spring\target\running-end-to-end-tests.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-aspects\4.3.11.RELEASE\spring-aspects-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-context-support\4.3.11.RELEASE\spring-context-support-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-beans\4.3.11.RELEASE\spring-beans-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-context\4.3.11.RELEASE\spring-context-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-core\4.3.11.RELEASE\spring-core-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-webmvc\4.3.11.RELEASE\spring-webmvc-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-aop\4.3.11.RELEASE\spring-aop-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-expression\4.3.11.RELEASE\spring-expression-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-web\4.3.11.RELEASE\spring-web-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\javax\el\javax.el-api\2.2.5\javax.el-api-2.2.5.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\glassfish\web\el-impl\2.2\el-impl-2.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\javax\el\el-api\2.2\el-api-2.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-test\4.3.11.RELEASE\spring-test-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\codehaus\groovy\groovy-all\2.4.11\groovy-all-2.4.11.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\spockframework\spock-core\1.1-groovy-2.4\spock-core-1.1-groovy-2.4.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\spockframework\spock-spring\1.1-groovy-2.4\spock-spring-1.1-groovy-2.4.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\com\athaydes\spock-reports\1.3.1\spock-reports-1.3.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.1\selenium-api-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.1\selenium-chrome-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.1\selenium-firefox-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.1\selenium-ie-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\net\java\dev\jna\jna\4.2.2\jna-4.2.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.1\selenium-remote-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.1\selenium-safari-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.1\selenium-support-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\com\google\code\gson\gson\2.8.1\gson-2.8.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\jdk-17.0.3+7\bin"/>
+    <property name="sun.java.command" value="C:\Users\DELL.DESKTOP-ISND0P9\AppData\Local\Temp\surefire11992103261367872294\surefirebooter-20220726180559556_3.jar C:\Users\DELL.DESKTOP-ISND0P9\AppData\Local\Temp\surefire11992103261367872294 2022-07-26T18-05-58_002-jvmRun1 surefire-20220726180559556_1tmp surefire_0-20220726180559556_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Barclays\SPOCK\Practice\test-with-spring-master\master-package\running-end-to-end-tests\spring\target\test-classes;E:\Barclays\SPOCK\Practice\test-with-spring-master\master-package\running-end-to-end-tests\spring\target\running-end-to-end-tests.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-aspects\4.3.11.RELEASE\spring-aspects-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-context-support\4.3.11.RELEASE\spring-context-support-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-beans\4.3.11.RELEASE\spring-beans-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-context\4.3.11.RELEASE\spring-context-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-core\4.3.11.RELEASE\spring-core-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-webmvc\4.3.11.RELEASE\spring-webmvc-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-aop\4.3.11.RELEASE\spring-aop-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-expression\4.3.11.RELEASE\spring-expression-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-web\4.3.11.RELEASE\spring-web-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\javax\el\javax.el-api\2.2.5\javax.el-api-2.2.5.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\glassfish\web\el-impl\2.2\el-impl-2.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\javax\el\el-api\2.2\el-api-2.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\springframework\spring-test\4.3.11.RELEASE\spring-test-4.3.11.RELEASE.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\codehaus\groovy\groovy-all\2.4.11\groovy-all-2.4.11.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\spockframework\spock-core\1.1-groovy-2.4\spock-core-1.1-groovy-2.4.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\spockframework\spock-spring\1.1-groovy-2.4\spock-spring-1.1-groovy-2.4.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\com\athaydes\spock-reports\1.3.1\spock-reports-1.3.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.1\selenium-api-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.1\selenium-chrome-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.1\selenium-firefox-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.1\selenium-ie-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\net\java\dev\jna\jna\4.2.2\jna-4.2.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.1\selenium-remote-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.1\selenium-safari-driver-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.1\selenium-support-2.53.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\com\google\code\gson\gson\2.8.1\gson-2.8.1.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\DELL.DESKTOP-ISND0P9"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\jdk-17.0.3+7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Barclays\SPOCK\Practice\test-with-spring-master\master-package\running-end-to-end-tests\spring"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL.DESKTOP-ISND0P9\AppData\Local\Temp\surefire11992103261367872294\surefirebooter-20220726180559556_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3+7-LTS"/>
+    <property name="user.name" value="DELL"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="webdriver.base.url" value="http://localhost:8080"/>
+    <property name="jnidispatch.path" value="C:\Users\DELL.DESKTOP-ISND0P9\AppData\Local\Temp\jna-2094529\jna14061638878612615800.dll"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-32931"/>
+    <property name="localRepository" value="C:\Users\DELL.DESKTOP-ISND0P9\.m2\repository"/>
+    <property name="jna.loaded" value="true"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\DELL.DESKTOP-ISND0P9\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.2"/>
+    <property name="java.version" value="17.0.3"/>
+    <property name="user.dir" value="E:\Barclays\SPOCK\Practice\test-with-spring-master\master-package\running-end-to-end-tests\spring"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\jdk-17.0.3+7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\Program Files\dotnet\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\jdk-17.0.3+7\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;%CHROME_DRIVER%;C:\Users\DELL.DESKTOP-ISND0P9\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\jdk-17.0.3+7\.\bin;C:\Users\DELL.DESKTOP-ISND0P9\AppData\Roaming\npm;E:\ChromeDriver\;C:\WebDriver\;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="17.0.3+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Open message page" classname="com.testwithspring.master.message.ShowMessageTextSpec" time="14.621">
+    <failure message="Condition not satisfied:&#10;&#10;browser.title == &apos;Hello World!&apos;&#10;|       |     |&#10;|       |     false&#10;|       |     26 differences (10% similarity)&#10;|       |     (Err-)o(r) (503 Se)r(vice Unavai)l(able)&#10;|       |     (Hell)o(-) (Wo----)r(-----------)l(d!--)&#10;|       Error 503 Service Unavailable&#10;ChromeDriver: chrome on XP (0825fd6452c6727c08e344a23238e251)&#10;" type="Condition not satisfied"><![CDATA[Condition not satisfied:
+
+browser.title == 'Hello World!'
+|       |     |
+|       |     false
+|       |     26 differences (10% similarity)
+|       |     (Err-)o(r) (503 Se)r(vice Unavai)l(able)
+|       |     (Hell)o(-) (Wo----)r(-----------)l(d!--)
+|       Error 503 Service Unavailable
+ChromeDriver: chrome on XP (0825fd6452c6727c08e344a23238e251)
+
+	at com.testwithspring.master.message.ShowMessageTextSpec.Open message page(ShowMessageTextSpec.groovy:33)
+]]></failure>
+    <system-out><![CDATA[2022-07-26 18:06:01,249 DEBUG - SpockReportExtension       - Configuring com.athaydes.spockframework.report.SpockReportExtension
+2022-07-26 18:06:01,408 INFO  - ConfigLoader               - SpockReports config loaded: {com.athaydes.spockframework.report.projectVersion=Unknown, com.athaydes.spockframework.report.template.TemplateReportCreator.enabled=true, com.athaydes.spockframework.report.internal.HtmlReportCreator.printThrowableStackTrace=false, com.athaydes.spockframework.report.template.TemplateReportCreator.specTemplateFile=/templateReportCreator/spec-template.md, com.athaydes.spockframework.report.template.TemplateReportCreator.reportFileExtension=md, com.athaydes.spockframework.report.hideEmptyBlocks=false, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryTemplateFile=/templateReportCreator/summary-template.md, com.athaydes.spockframework.report.template.TemplateReportCreator.summaryFileName=summary.md, com.athaydes.spockframework.report.internal.HtmlReportCreator.enabled=true, com.athaydes.spockframework.report.outputDir=build/spock-reports, com.athaydes.spockframework.report.projectName=, com.athaydes.spockframework.report.showCodeBlocks=false, com.athaydes.spockframework.report.internal.HtmlReportCreator.inlineCss=true, com.athaydes.spockframework.report.internal.HtmlReportCreator.featureReportCss=spock-feature-report.css, com.athaydes.spockframework.report.testSourceRoots=src/test/groovy, com.athaydes.spockframework.report.internal.HtmlReportCreator.summaryReportCss=spock-summary-report.css, com.athaydes.spockframework.report.internal.HtmlReportCreator.excludeToc=false, com.athaydes.spockframework.report.IReportCreator=com.athaydes.spockframework.report.internal.HtmlReportCreator}
+2022-07-26 18:06:01,555 DEBUG - SpockReportExtension       - Loading settings for reportCreator of type com.athaydes.spockframework.report.internal.HtmlReportCreator
+2022-07-26 18:06:01,850 INFO  - WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2022-07-26 18:06:01,859 INFO  - WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2022-07-26 18:06:01,860 INFO  - WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2022-07-26 18:06:01,860 INFO  - WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5be067de, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7383eae2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@18245eb0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7c7d3c46]
+2022-07-26 18:06:01,950 DEBUG - SpecInfoListener           - Before spec: com.testwithspring.master.message.ShowMessageTextSpec
+2022-07-26 18:06:01,954 DEBUG - SpecInfoListener           - Before feature: Open message page
+2022-07-26 18:06:03,694 DEBUG - RequestAddCookies          - CookieSpec selected: default
+2022-07-26 18:06:03,705 DEBUG - RequestAuthCache           - Auth cache not set in the context
+2022-07-26 18:06:03,706 DEBUG - ttpClientConnectionManager - Connection request: [route: {}->http://localhost:24045][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2022-07-26 18:06:03,726 DEBUG - ttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:24045][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2022-07-26 18:06:03,727 DEBUG - MainClientExec             - Opening connection {}->http://localhost:24045
+2022-07-26 18:06:03,729 DEBUG - tpClientConnectionOperator - Connecting to localhost/127.0.0.1:24045
+2022-07-26 18:06:03,731 DEBUG - tpClientConnectionOperator - Connection established 127.0.0.1:56411<->127.0.0.1:24045
+2022-07-26 18:06:03,731 DEBUG - anagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+2022-07-26 18:06:03,731 DEBUG - MainClientExec             - Executing request POST /session HTTP/1.1
+2022-07-26 18:06:03,731 DEBUG - MainClientExec             - Target auth state: UNCHALLENGED
+2022-07-26 18:06:03,731 DEBUG - MainClientExec             - Proxy auth state: UNCHALLENGED
+2022-07-26 18:06:03,734 DEBUG - headers                    - http-outgoing-0 >> POST /session HTTP/1.1
+2022-07-26 18:06:03,734 DEBUG - headers                    - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2022-07-26 18:06:03,734 DEBUG - headers                    - http-outgoing-0 >> Content-Length: 122
+2022-07-26 18:06:03,734 DEBUG - headers                    - http-outgoing-0 >> Host: localhost:24045
+2022-07-26 18:06:03,734 DEBUG - headers                    - http-outgoing-0 >> Connection: Keep-Alive
+2022-07-26 18:06:03,734 DEBUG - headers                    - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.3)
+2022-07-26 18:06:03,735 DEBUG - headers                    - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2022-07-26 18:06:03,735 DEBUG - wire                       - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2022-07-26 18:06:03,735 DEBUG - wire                       - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-07-26 18:06:03,735 DEBUG - wire                       - http-outgoing-0 >> "Content-Length: 122[\r][\n]"
+2022-07-26 18:06:03,735 DEBUG - wire                       - http-outgoing-0 >> "Host: localhost:24045[\r][\n]"
+2022-07-26 18:06:03,735 DEBUG - wire                       - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2022-07-26 18:06:03,735 DEBUG - wire                       - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.3)[\r][\n]"
+2022-07-26 18:06:03,735 DEBUG - wire                       - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-07-26 18:06:03,735 DEBUG - wire                       - http-outgoing-0 >> "[\r][\n]"
+2022-07-26 18:06:03,735 DEBUG - wire                       - http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","platform":"ANY"}}"
+2022-07-26 18:06:07,282 DEBUG - wire                       - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2022-07-26 18:06:07,283 DEBUG - wire                       - http-outgoing-0 << "Content-Length:1128[\r][\n]"
+2022-07-26 18:06:07,283 DEBUG - wire                       - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2022-07-26 18:06:07,283 DEBUG - wire                       - http-outgoing-0 << "[\r][\n]"
+2022-07-26 18:06:07,283 DEBUG - wire                       - http-outgoing-0 << "{"sessionId":"4363c31aaeeda42128e69f9648e22839","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262})","userDataDir":"C:\\Users\\DELL.DESKTOP-ISND0P9\\AppData\\Local\\Temp\\scoped_dir20472_1725553844"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:56412"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows","proxy":{},"rotatable":false,"setWindowRect":true,"strictFileInteractability":false,"takesHeapSnapshot":true,"takesScreenshot":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unexpectedAlertBehaviour":"ignore","version":"103.0.5060.134","webStorageEnabled":true,"webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true}}"
+2022-07-26 18:06:07,290 DEBUG - headers                    - http-outgoing-0 << HTTP/1.1 200 OK
+2022-07-26 18:06:07,290 DEBUG - headers                    - http-outgoing-0 << Content-Length:1128
+2022-07-26 18:06:07,290 DEBUG - headers                    - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2022-07-26 18:06:07,297 DEBUG - MainClientExec             - Connection can be kept alive indefinitely
+2022-07-26 18:06:07,304 DEBUG - ttpClientConnectionManager - Connection [id: 0][route: {}->http://localhost:24045] can be kept alive indefinitely
+2022-07-26 18:06:07,304 DEBUG - ttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:24045][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2022-07-26 18:06:07,321 DEBUG - SpecInfoListener           - Before iteration: Open message page
+2022-07-26 18:06:07,734 DEBUG - RequestAddCookies          - CookieSpec selected: default
+2022-07-26 18:06:07,734 DEBUG - RequestAuthCache           - Auth cache not set in the context
+2022-07-26 18:06:07,734 DEBUG - ttpClientConnectionManager - Connection request: [route: {}->http://localhost:41607][total kept alive: 1; route allocated: 0 of 2000; total allocated: 1 of 2000]
+2022-07-26 18:06:07,735 DEBUG - ttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://localhost:41607][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+2022-07-26 18:06:07,735 DEBUG - MainClientExec             - Opening connection {}->http://localhost:41607
+2022-07-26 18:06:07,735 DEBUG - tpClientConnectionOperator - Connecting to localhost/127.0.0.1:41607
+2022-07-26 18:06:07,737 DEBUG - tpClientConnectionOperator - Connection established 127.0.0.1:56427<->127.0.0.1:41607
+2022-07-26 18:06:07,737 DEBUG - anagedHttpClientConnection - http-outgoing-1: set socket timeout to 10800000
+2022-07-26 18:06:07,738 DEBUG - MainClientExec             - Executing request POST /session HTTP/1.1
+2022-07-26 18:06:07,738 DEBUG - MainClientExec             - Target auth state: UNCHALLENGED
+2022-07-26 18:06:07,738 DEBUG - MainClientExec             - Proxy auth state: UNCHALLENGED
+2022-07-26 18:06:07,738 DEBUG - headers                    - http-outgoing-1 >> POST /session HTTP/1.1
+2022-07-26 18:06:07,738 DEBUG - headers                    - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2022-07-26 18:06:07,738 DEBUG - headers                    - http-outgoing-1 >> Content-Length: 162
+2022-07-26 18:06:07,738 DEBUG - headers                    - http-outgoing-1 >> Host: localhost:41607
+2022-07-26 18:06:07,738 DEBUG - headers                    - http-outgoing-1 >> Connection: Keep-Alive
+2022-07-26 18:06:07,738 DEBUG - headers                    - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.3)
+2022-07-26 18:06:07,738 DEBUG - headers                    - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2022-07-26 18:06:07,738 DEBUG - wire                       - http-outgoing-1 >> "POST /session HTTP/1.1[\r][\n]"
+2022-07-26 18:06:07,738 DEBUG - wire                       - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-07-26 18:06:07,738 DEBUG - wire                       - http-outgoing-1 >> "Content-Length: 162[\r][\n]"
+2022-07-26 18:06:07,738 DEBUG - wire                       - http-outgoing-1 >> "Host: localhost:41607[\r][\n]"
+2022-07-26 18:06:07,738 DEBUG - wire                       - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2022-07-26 18:06:07,739 DEBUG - wire                       - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.3)[\r][\n]"
+2022-07-26 18:06:07,739 DEBUG - wire                       - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-07-26 18:06:07,739 DEBUG - wire                       - http-outgoing-1 >> "[\r][\n]"
+2022-07-26 18:06:07,739 DEBUG - wire                       - http-outgoing-1 >> "{"desiredCapabilities":{"browserName":"chrome","chromeOptions":{"args":[],"extensions":[],"excludeSwitches":["enable-automation"]},"version":"","platform":"ANY"}}"
+2022-07-26 18:06:10,490 DEBUG - wire                       - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2022-07-26 18:06:10,491 DEBUG - wire                       - http-outgoing-1 << "Content-Length:1128[\r][\n]"
+2022-07-26 18:06:10,491 DEBUG - wire                       - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2022-07-26 18:06:10,491 DEBUG - wire                       - http-outgoing-1 << "[\r][\n]"
+2022-07-26 18:06:10,491 DEBUG - wire                       - http-outgoing-1 << "{"sessionId":"0825fd6452c6727c08e344a23238e251","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262})","userDataDir":"C:\\Users\\DELL.DESKTOP-ISND0P9\\AppData\\Local\\Temp\\scoped_dir23484_1457698380"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:56428"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows","proxy":{},"rotatable":false,"setWindowRect":true,"strictFileInteractability":false,"takesHeapSnapshot":true,"takesScreenshot":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unexpectedAlertBehaviour":"ignore","version":"103.0.5060.134","webStorageEnabled":true,"webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true}}"
+2022-07-26 18:06:10,491 DEBUG - headers                    - http-outgoing-1 << HTTP/1.1 200 OK
+2022-07-26 18:06:10,491 DEBUG - headers                    - http-outgoing-1 << Content-Length:1128
+2022-07-26 18:06:10,491 DEBUG - headers                    - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2022-07-26 18:06:10,492 DEBUG - MainClientExec             - Connection can be kept alive indefinitely
+2022-07-26 18:06:10,493 DEBUG - ttpClientConnectionManager - Connection [id: 1][route: {}->http://localhost:41607] can be kept alive indefinitely
+2022-07-26 18:06:10,493 DEBUG - ttpClientConnectionManager - Connection released: [id: 1][route: {}->http://localhost:41607][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+2022-07-26 18:06:10,497 DEBUG - RequestAddCookies          - CookieSpec selected: default
+2022-07-26 18:06:10,497 DEBUG - RequestAuthCache           - Auth cache not set in the context
+2022-07-26 18:06:10,497 DEBUG - ttpClientConnectionManager - Connection request: [route: {}->http://localhost:41607][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+2022-07-26 18:06:10,497 DEBUG - ttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://localhost:41607][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+2022-07-26 18:06:10,497 DEBUG - MainClientExec             - Stale connection check
+2022-07-26 18:06:10,498 DEBUG - wire                       - http-outgoing-1 << "[read] I/O error: Read timed out"
+2022-07-26 18:06:10,498 DEBUG - anagedHttpClientConnection - http-outgoing-1: set socket timeout to 10800000
+2022-07-26 18:06:10,498 DEBUG - MainClientExec             - Executing request POST /session/0825fd6452c6727c08e344a23238e251/url HTTP/1.1
+2022-07-26 18:06:10,498 DEBUG - MainClientExec             - Target auth state: UNCHALLENGED
+2022-07-26 18:06:10,498 DEBUG - MainClientExec             - Proxy auth state: UNCHALLENGED
+2022-07-26 18:06:10,498 DEBUG - headers                    - http-outgoing-1 >> POST /session/0825fd6452c6727c08e344a23238e251/url HTTP/1.1
+2022-07-26 18:06:10,498 DEBUG - headers                    - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2022-07-26 18:06:10,498 DEBUG - headers                    - http-outgoing-1 >> Content-Length: 35
+2022-07-26 18:06:10,499 DEBUG - headers                    - http-outgoing-1 >> Host: localhost:41607
+2022-07-26 18:06:10,499 DEBUG - headers                    - http-outgoing-1 >> Connection: Keep-Alive
+2022-07-26 18:06:10,499 DEBUG - headers                    - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.3)
+2022-07-26 18:06:10,499 DEBUG - headers                    - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2022-07-26 18:06:10,499 DEBUG - wire                       - http-outgoing-1 >> "POST /session/0825fd6452c6727c08e344a23238e251/url HTTP/1.1[\r][\n]"
+2022-07-26 18:06:10,499 DEBUG - wire                       - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2022-07-26 18:06:10,499 DEBUG - wire                       - http-outgoing-1 >> "Content-Length: 35[\r][\n]"
+2022-07-26 18:06:10,499 DEBUG - wire                       - http-outgoing-1 >> "Host: localhost:41607[\r][\n]"
+2022-07-26 18:06:10,499 DEBUG - wire                       - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2022-07-26 18:06:10,499 DEBUG - wire                       - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.3)[\r][\n]"
+2022-07-26 18:06:10,499 DEBUG - wire                       - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-07-26 18:06:10,499 DEBUG - wire                       - http-outgoing-1 >> "[\r][\n]"
+2022-07-26 18:06:10,499 DEBUG - wire                       - http-outgoing-1 >> "{"url":"http://localhost:8080/hi/"}"
+2022-07-26 18:06:11,532 DEBUG - wire                       - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2022-07-26 18:06:11,532 DEBUG - wire                       - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2022-07-26 18:06:11,532 DEBUG - wire                       - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2022-07-26 18:06:11,532 DEBUG - wire                       - http-outgoing-1 << "[\r][\n]"
+2022-07-26 18:06:11,532 DEBUG - wire                       - http-outgoing-1 << "{"sessionId":"0825fd6452c6727c08e344a23238e251","status":0,"value":null}"
+2022-07-26 18:06:11,533 DEBUG - headers                    - http-outgoing-1 << HTTP/1.1 200 OK
+2022-07-26 18:06:11,533 DEBUG - headers                    - http-outgoing-1 << Content-Length:72
+2022-07-26 18:06:11,533 DEBUG - headers                    - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2022-07-26 18:06:11,534 DEBUG - MainClientExec             - Connection can be kept alive indefinitely
+2022-07-26 18:06:11,535 DEBUG - ttpClientConnectionManager - Connection [id: 1][route: {}->http://localhost:41607] can be kept alive indefinitely
+2022-07-26 18:06:11,535 DEBUG - ttpClientConnectionManager - Connection released: [id: 1][route: {}->http://localhost:41607][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+End-to-End Test: Should show the correct title
+2022-07-26 18:06:11,552 DEBUG - RequestAddCookies          - CookieSpec selected: default
+2022-07-26 18:06:11,552 DEBUG - RequestAuthCache           - Auth cache not set in the context
+2022-07-26 18:06:11,553 DEBUG - ttpClientConnectionManager - Connection request: [route: {}->http://localhost:41607][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+2022-07-26 18:06:11,553 DEBUG - ttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://localhost:41607][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+2022-07-26 18:06:11,553 DEBUG - MainClientExec             - Stale connection check
+2022-07-26 18:06:11,555 DEBUG - wire                       - http-outgoing-1 << "[read] I/O error: Read timed out"
+2022-07-26 18:06:11,556 DEBUG - anagedHttpClientConnection - http-outgoing-1: set socket timeout to 10800000
+2022-07-26 18:06:11,556 DEBUG - MainClientExec             - Executing request GET /session/0825fd6452c6727c08e344a23238e251/title HTTP/1.1
+2022-07-26 18:06:11,556 DEBUG - MainClientExec             - Target auth state: UNCHALLENGED
+2022-07-26 18:06:11,556 DEBUG - MainClientExec             - Proxy auth state: UNCHALLENGED
+2022-07-26 18:06:11,556 DEBUG - headers                    - http-outgoing-1 >> GET /session/0825fd6452c6727c08e344a23238e251/title HTTP/1.1
+2022-07-26 18:06:11,557 DEBUG - headers                    - http-outgoing-1 >> Cache-Control: no-cache
+2022-07-26 18:06:11,557 DEBUG - headers                    - http-outgoing-1 >> Host: localhost:41607
+2022-07-26 18:06:11,557 DEBUG - headers                    - http-outgoing-1 >> Connection: Keep-Alive
+2022-07-26 18:06:11,557 DEBUG - headers                    - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.3)
+2022-07-26 18:06:11,557 DEBUG - headers                    - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2022-07-26 18:06:11,557 DEBUG - wire                       - http-outgoing-1 >> "GET /session/0825fd6452c6727c08e344a23238e251/title HTTP/1.1[\r][\n]"
+2022-07-26 18:06:11,557 DEBUG - wire                       - http-outgoing-1 >> "Cache-Control: no-cache[\r][\n]"
+2022-07-26 18:06:11,557 DEBUG - wire                       - http-outgoing-1 >> "Host: localhost:41607[\r][\n]"
+2022-07-26 18:06:11,557 DEBUG - wire                       - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2022-07-26 18:06:11,557 DEBUG - wire                       - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/17.0.3)[\r][\n]"
+2022-07-26 18:06:11,557 DEBUG - wire                       - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2022-07-26 18:06:11,557 DEBUG - wire                       - http-outgoing-1 >> "[\r][\n]"
+2022-07-26 18:06:11,567 DEBUG - wire                       - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2022-07-26 18:06:11,568 DEBUG - wire                       - http-outgoing-1 << "Content-Length:99[\r][\n]"
+2022-07-26 18:06:11,568 DEBUG - wire                       - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2022-07-26 18:06:11,568 DEBUG - wire                       - http-outgoing-1 << "[\r][\n]"
+2022-07-26 18:06:11,568 DEBUG - wire                       - http-outgoing-1 << "{"sessionId":"0825fd6452c6727c08e344a23238e251","status":0,"value":"Error 503 Service Unavailable"}"
+2022-07-26 18:06:11,568 DEBUG - headers                    - http-outgoing-1 << HTTP/1.1 200 OK
+2022-07-26 18:06:11,568 DEBUG - headers                    - http-outgoing-1 << Content-Length:99
+2022-07-26 18:06:11,568 DEBUG - headers                    - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2022-07-26 18:06:11,568 DEBUG - MainClientExec             - Connection can be kept alive indefinitely
+2022-07-26 18:06:11,569 DEBUG - ttpClientConnectionManager - Connection [id: 1][route: {}->http://localhost:41607] can be kept alive indefinitely
+2022-07-26 18:06:11,569 DEBUG - ttpClientConnectionManager - Connection released: [id: 1][route: {}->http://localhost:41607][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+2022-07-26 18:06:12,116 DEBUG - SpecInfoListener           - Error on spec: com.testwithspring.master.message.ShowMessageTextSpec
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 24045
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 41607
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+</testsuite>

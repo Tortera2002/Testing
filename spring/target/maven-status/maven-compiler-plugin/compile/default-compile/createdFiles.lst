@@ -1,0 +1,4 @@
+com\testwithspring\master\message\MessageController.class
+com\testwithspring\master\config\WebMvcContext.class
+com\testwithspring\master\config\WebAppConfig.class
+com\testwithspring\master\config\ExampleApplicationContext.class
